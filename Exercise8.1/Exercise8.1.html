@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exercise 8.1</title>
+    <style>
+        header, div, section, article, aside {
+            border: 1px solid black;
+        }
+
+        nav {
+            float: right;
+        }
+
+        .top-image {
+            display: block;
+            margin: auto;
+        }
+
+        section {
+            display: flex;
+        }
+
+        article {
+            flex-grow: 1;
+        }
+
+        aside {
+            flex-shrink: 0;
+            width: 25%;
+        }
+
+        footer {
+            display: flex;
+        }
+
+        .footer-div {
+            flex: 1;
+        }
+
+        .bottom-image {
+            width: 100px;
+            height: auto;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tourism in India</h1>
+        <nav>
+            <a href="">Package</a> |
+            <a href="">How to reach</a> |
+            <a href="">Best time to visit</a> |
+            <a href="">Photos</a> |
+            <a href="">Feedback</a>
+        </nav>
+    </header>
+    <div class="top-image">
+        <img src="https://static.euronews.com/articles/stories/05/36/83/90/1100x619_cmsv2_6187d843-7037-5073-92f1-c3a894a93ba2-5368390.jpg" />
+    </div>
+    <section>
+        <article>
+            <h3>Places to visit</h3>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                In dolor lorem, ullamcorper ut tincidunt nec, efficitur in est.
+                In finibus ante suscipit ligula porta accumsan a a lacus.
+                Aliquam euismod congue mollis.
+                Etiam maximus varius libero ut bibendum.
+                Cras ultricies, ex sit amet bibendum laoreet, mi tortor volutpat sem, eu bibendum turpis lacus id dolor.
+                Aliquam in urna sapien. Suspendisse potenti.
+                Nulla convallis lacinia magna, eu aliquam lectus luctus ullamcorper.
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                Donec sagittis sem diam, vel tincidunt magna convallis et.
+                Duis efficitur imperdiet nibh, nec pharetra est faucibus nec.
+                Praesent commodo, tortor posuere commodo maximus, tortor tortor pellentesque elit, in tristique felis nulla nec massa.
+                Quisque commodo tortor tristique mi imperdiet, dictum semper tellus commodo.
+                Phasellus non euismod arcu.
+                Curabitur a nulla at mi condimentum dictum et ac eros.
+                Aenean sodales pharetra erat, eget lobortis tortor suscipit vitae.
+            </p>
+            <p>
+                Integer nulla odio, placerat eget egestas eu, dapibus ac ipsum.
+                Vestibulum porta pharetra lacus, eu aliquam ipsum eleifend ut.
+                Mauris quis placerat turpis.
+                Fusce condimentum, risus et sollicitudin dapibus, ante nibh venenatis nunc, vel rhoncus leo mi vel purus.
+                Nulla interdum tellus in varius vulputate.
+                Suspendisse tincidunt orci nec leo tincidunt, vitae vehicula dolor ornare.
+                Mauris nec orci non elit dapibus accumsan.
+            </p>
+            <p>
+                Morbi nec dignissim massa.
+                Sed posuere tristique dapibus.
+                Suspendisse turpis nisi, ultricies accumsan tempor sit amet, lobortis nec urna.
+                Mauris vitae felis massa.
+                Etiam at dui nec justo suscipit dignissim.
+                Pellentesque quis odio porta, tristique ligula sed, laoreet massa.
+                Suspendisse maximus erat nec vulputate tempus.
+                Pellentesque risus lacus, mattis a commodo eu, ullamcorper non elit.
+                Mauris eget tellus arcu.
+                Donec tristique porta nisl, sit amet imperdiet orci malesuada varius.
+                Ut commodo, nulla nec aliquam pellentesque, lacus tellus hendrerit nunc, eget rhoncus lacus justo in enim.
+                Etiam vel malesuada ipsum, non pellentesque arcu.
+            </p>
+        </article>
+        <aside>
+            <h5>Author Info</h5>
+            <p>
+                Morbi nec dignissim massa.
+                Sed posuere tristique dapibus.
+                Suspendisse turpis nisi,
+                ultricies accumsan tempor sit amet, lobortis nec urna.
+                Mauris vitae felis massa.
+                Etiam at dui nec justo suscipit dignissim.
+                Pellentesque quis odio porta, tristique ligula sed, laoreet massa.
+                Suspendisse maximus erat nec vulputate tempus.
+                Pellentesque risus lacus, mattis a commodo eu, ullamcorper non elit.
+                Mauris eget tellus arcu.
+                Donec tristique porta nisl, sit amet imperdiet orci malesuada varius.
+                Ut commodo, nulla nec aliquam pellentesque, lacus tellus hendrerit nunc, eget rhoncus lacus justo in enim.
+                Etiam vel malesuada ipsum, non pellentesque arcu.
+            </p>
+            <a href="">Facebook</a> |
+            <a href="">Twitter</a> |
+            <a href="">Instagram</a>
+        </aside>
+    </section>
+    <footer>
+        <div class="footer-div">
+            <p>&copy; 2021 Nolan Worthy</p>
+        </div>
+        <div class="footer-div bottom-image">
+            <img src="https://newsvibesofindia.com/wp-content/uploads/2019/11/tourism.jpg" />
+        </div>
+        <div class="footer-div">
+            <p>Cities for travelling:</p>
+            <ul>
+                <li>City 1</li>
+                <li>City 2</li>
+                <li>City 3</li>
+                <li>City 4</li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
